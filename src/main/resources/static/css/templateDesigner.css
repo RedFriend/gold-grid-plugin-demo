@@ -1,0 +1,239 @@
+body {
+    padding: 14px;
+    background: #f0f0f0
+}
+
+ul, li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: "微软雅黑"
+}
+
+html, body {
+    height: 100%
+}
+
+div.search {
+    padding: 20px 0;
+}
+
+form {
+    position: relative;
+    width: 100%;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bar6 {
+    background: #ffffff;
+}
+
+.bar6 input {
+    border: 2px solid #95b8e7;
+    border-radius: 5px;
+    background: transparent;
+    top: 0;
+    right: 0;
+}
+
+.bar6 button {
+    background: #95b8e7;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0;
+    right: 0;
+}
+
+.bar6 button:before {
+    content: "查询";
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.xialaList {
+    padding: 14px 0 14px 20px;
+    text-align: center;
+}
+
+.xialaList li {
+    padding: 6px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+}
+
+.xialaList li span:hover {
+    color: #56A0B8;
+}
+
+.xialaList li span {
+    color: #333;
+}
+
+.xialaList li i {
+    display: inline-block;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.cyong li i {
+    background: url(/static/img/1534750318.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.nocy li i {
+    background: url(/static/img/153475186.jpg) no-repeat;
+    background-size: 100%;
+}
+
+i {
+    font-style: normal;
+}
+
+.chay {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #C3DEF1;
+    padding-left: 24px;
+    color: #4a4848;
+    font-size: 14px;
+    margin: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chay::before{
+    content: "";
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.chay_one::before {
+    background: url(/static/img/down.png) no-repeat;
+    background-size: 100%;
+}
+
+.chay_two::before {
+    background: url(/static/img/up.png) no-repeat;
+    background-size: 100%;
+}
+
+#conter {
+    background: #ffffff;
+    overflow: hidden;
+    height: 100%
+}
+
+.left_div {
+    float: left;
+    width: 70%;
+    height: 90%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.right_left {
+    float: left;
+    width: 28%;
+    height: 90%;
+    overflow: auto;
+    padding: 10px;
+}
+
+ #conter .right_left1 {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+    margin-left:0;
+}
+
+.right_left {
+    margin-left: 2%
+}
+
+.anhdd {
+    background: #95b8e7;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.anhaoname {
+    height: 30px;
+    line-height: 1.3;
+    line-height: 30px \9;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #95b8e7;
+    border-radius: 2px;
+    padding-left: 10px;
+    width: 360px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.anhaoname::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.anhaoname:-moz-placeholder, textarea:-moz-placeholder {
+    color: #fff;
+}
+
+.anhaoname::-moz-placeholder, textarea::-moz-placeholder {
+    color: #fff;
+}
+
+.anhaoname:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #fff;
+}
